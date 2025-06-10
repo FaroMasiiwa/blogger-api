@@ -4,9 +4,26 @@ const app           = express();
 require('dotenv').config();
 
 
+
+//--App routes
+const authRoutes = require('./routes/authRoutes')
+
+
+//Middleware
+app.use(express.json())
+
+
+
 //Use the PORT set in environment variables or default to port 5000.
 const PORT = process.env.PORT || 5000;
 
+//Routes
+
+
+app.get('/', (req,res) => {
+    res.send('home')
+})
+app.use(authRoutes)
 
 
 
