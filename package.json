@@ -1,0 +1,28 @@
+{
+  "name": "blogger-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaroMasiiwa/blogger-api.git"
+  },
+  "keywords": [],
+  "author": "Rufaro Reichenbach",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FaroMasiiwa/blogger-api/issues"
+  },
+  "homepage": "https://github.com/FaroMasiiwa/blogger-api#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
